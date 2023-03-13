@@ -28,6 +28,11 @@ return {
         filtered_items = {
           visible = true,
         },
+        bind_to_cwd = true, -- true creates a 2-way binding between vim's cwd and neo-tree's root
+        cwd_target = {
+          sidebar = "window", -- sidebar is when position = left or right
+          current = "window", -- current is when position = current
+        },
       },
     },
   },
