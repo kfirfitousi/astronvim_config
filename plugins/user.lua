@@ -11,6 +11,10 @@ return {
   -- },
 
   {
+    "simrat39/rust-tools.nvim", -- add lsp plugin
+  },
+
+  {
     "zbirenbaum/copilot.lua",
     lazy = false,
     config = function()
