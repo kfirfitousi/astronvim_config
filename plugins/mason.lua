@@ -19,6 +19,9 @@ return {
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
       ensure_installed = { "prettierd", "stylua" },
+      handlers = {
+        rust_analyzer = function(_, opts) require("rust-tools").setup { server = opts } end,
+      },
     },
   },
   {
