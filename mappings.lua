@@ -20,6 +20,8 @@ return {
     ["<C-d>"] = { "<C-d>zz" },
     ["<C-u>"] = { "<C-u>zz" },
     ["<leader>nh"] = { ":noh<CR>" },
+    ["<C-w>>"] = { "10<C-w>>" },
+    ["<C-w><"] = { "10<C-w><" },
   },
   t = {
     -- setting a mapping to false will disable it
